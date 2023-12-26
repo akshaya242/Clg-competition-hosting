@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ZENGARDEN</title>
+    <style>
+
+      html{
+        padding-left: 40px;
+        padding-right: 40px; 
+      }
+        .header{
+            text-align: center;
+            background-color: #66bfbf;
+            height: 250px;
+            margin-bottom: 5px;
+            margin-top: 0%;
+            
+        }
+        h1{
+            padding-top: 5px;
+        }
+        nav{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        a{
+            color: #BF6666;
+            padding: 50px;
+            font-size: 20px;
+        }
+
+        
+        img{
+            height: 40px;
+            display: inline;
+            padding-top: 5px;
+            
+        }
+
+        .event{
+          padding-bottom: 30px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img{
+            height: 250px;
+            border-radius: 20%;
+        }
+
+        
+        body {
+      font-family: 'Sono', sans-serif;
+    }
+
+    .award-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60vh;
+      column-gap: 2rem;
+      row-gap: 0%;
+    }
+
+    .award-plan {
+      flex: 1;
+      max-width: 400px;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .award-category {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .award-price {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+   
+    .apply-button {
+      padding: 10px;
+      background-color: #66bfbf;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+    }
+
+    @media (max-width: 1250px) {
+      .pricing-container {
+        flex-direction: column;
+        height: 100%;
+      }
+    }
+
+    .footer{
+      background-color: #66bfbf;
+    }
+
+    .footer  img{
+      height: 20px;
+      width: 20px;
+      
+      
+
+    }
+
+    .footer li{
+      list-style: none;
+    }
+
+    .footer{
+      margin-top: 35px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      row-gap: 32px;
+      
+    }
+
+   
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #66bfbf;
+      
+    }
+
+    div {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    select {
+      height: 34px;
+    }
+
+    input[type="number"] {
+      width: 50px; 
+    }
+
+    button {
+      padding: 10px;
+      background-color:#66bfbf;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 80%;
+    }
+
+    @media (max-width: 500px) {
+      form {
+        max-width: 100%;
+      }
+    }
+
+    #comm{
+      font-weight: 400;
+    }
+    h5{
+      text-align: center;
+    }
+
+   
+
+        
+        
+    </style>
+    
+</head>
+<body>
+
+    <section class="header">
+        <h1>UTHKRISHTA - 2023</h1>
+        <h2>IIIT Sri City</h2>
+        <h3>GDSC</h3>
+        
+        <nav class="head-container">
+            
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+            
+        </nav>
+
+        
+
+    </section>
+
+    
+
+    <section class="award">
+      <h4>Zengarden:</h4>
+      <p>Add eye-catching styles to win various prizes!!!!</p>
+     
+        
+        <div class="award-container">
+            <div class="award-plan">
+              <div class="award-category">FIRST</div>
+              <div class="award-price">₹5000</div>
+
+              <form action="/action_page.php">
+                <label for="fname">Award ID:</label>
+                <input type="text" id="awardid" name="awardid">
+              </form>
+
+              <button class="apply-button">Apply Now</a>
+            </div>
+
+            <div class="award-plan">
+              <div class="award-category">Second</div>
+              <div class="award-price">₹2500</div>
+              <form action="/action_page.php">
+                <label for="fname">Award ID:</label>
+                <input type="text" id="awardid" name="awardid">
+              </form>
+              <button class="apply-button">Apply Now</a>
+            </div>
+
+
+            <div class="award-plan">
+              <div class="award-category">Third</div>
+              <div class="award-price">₹1000</div>
+              <form action="/action_page.php">
+                <label for="fname">Award ID:</label>
+                <input type="text" id="awardid" name="awardid">
+              </form>
+              <button class="apply-button">Apply Now</a>
+            </div>
+          </div>
+
+          <!-- <table>
+            <tr>
+                <th>Category</th>
+                <th>Award</th>
+                
+            </tr>
+            <tr>
+                <td>First</td>
+                <td>₹5000</td>
+                
+            </tr>
+            <tr>
+                <td>Second</td>
+                <td>₹2500</td>
+                
+            </tr>
+            <tr>
+                <td>Third</td>
+                <td>₹1000</td>
+                
+            </tr>
+        </table> -->
+
+    </section>
+
+    <section class="event">
+        <!--Upcoming events-->
+        <h4>Upcoming events in Uthkrishta - 2023</h4>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Event Name</th>
+                <th>Timings / Duration</th>
+                <th>Description</th>
+                <th>Club</th>
+                <th>Judge</th>
+                <th>Allowed UGs</th>
+            </tr>
+            <tr>
+                <td>16-11-23</td>
+                <td>data1</td>
+                <td>data2</td>
+                <td>data3</td>
+                <td>data4</td>
+                <td>data5</td>
+                <td>data6</td>
+            </tr>
+
+            <tr>
+                <td>17-11-23</td>
+                <td>data1</td>
+                <td>data2</td>
+                <td>data3</td>
+                <td>data4</td>
+                <td>data5</td>
+                <td>data6</td>
+            </tr>
+
+            <tr>
+                <td>18-11-23</td>
+                <td>data1</td>
+                <td>data2</td>
+                <td>data3</td>
+                <td>data4</td>
+                <td>data5</td>
+                <td>data6</td>
+            </tr>
+        </table>
+        
+
+        
+        
+
+    </section>
+
+    <section class="form">
+      <h4>Feedback: </h4>
+      <form>
+        <h5>Give us your valuable Feedback</h5>
+        <div>
+            Roll Number: <input type="text">
+        </div>
+        <br>
+        <div>
+            Name: <input type="text">
+        </div>
+        <br>
+        <div>
+            UG: 
+            <select name="UG">
+                <option value="UG-1">UG-1</option>
+                <option value="UG-2">UG-2</option>
+                <option value="UG-3">UG-3</option>
+                <option value="UG-4">UG-4</option>
+              </select>
+        </div>
+        <br>
+
+        <div>
+          Event Date: <input type="date">
+        </div>
+        <br>
+        <div>
+
+        </div>
+        
+
+        <div>
+            How would you rate this event: <input type="number" max="5" min="0">
+        </div>
+        <br>
+
+        <div>
+          <label><input type="radio" name="radio" value="yes" /> Yes</label>
+          <label><input type="radio" name="radio" value="no" /> No</label>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="comments" id="comm">What could we have done better? :</label>
+          <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+        <br>
+
+        <div>
+          <button type="submit">Submit Feedback</button>
+        </div>
+        
+      </form>
+
+    </section>
+
+    
+
+    <section class="footer">
+        <ul>
+            <li><img src="./images/gdsc-logo.png" alt="gdsc-logo"></li>
+            <li><img src="./images/IIIT-Sri-City.png" alt="IIIT-Sri-City-logo"></li>
+        </ul>
+        <p>©Google Developers Students Club <br> ©IIIT Sri City</p>
+        
+    </section>
+    
+</body>
+</html>
